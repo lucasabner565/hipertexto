@@ -1,0 +1,7 @@
+print ("Abner Luquinhas, o mais mais")
+print ("============================")
+print ("Dados do usuário:")
+nome = input("Digite seu nome: ")
+profissao = input("Digite sua profissão: ")
+ativo = input("Digite se você está ativo (sim/não): ")
+print ("============================")

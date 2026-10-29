@@ -1,0 +1,63 @@
+
+/* Configuração geral */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Cabeçalho */
+header {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+/* Menu de navegação */
+nav {
+    background-color: lightgreen;
+    padding: 10px;
+}
+
+/* Área que contém a barra lateral e o conteúdo */
+.conteudo {
+    display: flex;
+    flex: 1;
+}
+
+/* Barra lateral */
+aside {
+    background-color: wheat;
+    width: 25%;
+    padding: 20px;
+}
+
+/* Conteúdo principal */
+main {
+    background-color: lavender;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Rodapé */
+footer {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+/* Ajuste para telas pequenas */
+@media (max-width: 600px) {
+    .conteudo {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+    }
+}
